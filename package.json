@@ -9,7 +9,7 @@
     "test:module-2": "node node_modules/mocha/bin/mocha ./test/module-2/*test.js || true",
     "test:module-3": "node node_modules/mocha/bin/mocha ./test/module-3/*test.js || true",
     "test:module-4": "node node_modules/mocha/bin/mocha ./test/module-4/*test.js || true",
-    "start": "node api/index.js || true"
+    "start": "node api/index.js"
   },
   "author": "",
   "license": "ISC",
@@ -31,6 +31,7 @@
     "esm": "^3.2.25",
     "express": "^4.17.1",
     "gm": "^1.9.0",
+    "graphicsmagick": "^0.0.1",
     "multer": "^1.4.2"
   }
 }
