@@ -1,4 +1,4 @@
-const gm = require("gm");
+const gm = require("gm").subClass({imageMagick: true});
 const { workerData, parentPort } = require("worker_threads");
 
 gm(workerData.source)
